@@ -11,6 +11,7 @@
   "dependencies": {
     "@emoji-mart/data": "^1.0.1",
     "@mantine/core": "^4.2.7",
+    "@mantine/dropzone": "^4.2.7",
     "@mantine/hooks": "^4.2.7",
     "@mantine/next": "^4.2.7",
     "@stitches/react": "^1.2.8",

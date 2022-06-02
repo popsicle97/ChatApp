@@ -3,7 +3,7 @@ import { Settings, Search, Photo, MessageCircle, Trash, ArrowsLeftRight, UserCir
 
 export default function ProfileMenu() {
     return (
-        <Menu placement='center' sx={{ display: 'flex' }} control={<ActionIcon sx={{ alignSelf: 'center', justifySelf: 'center' }}>
+        <Menu transition="slide-left" transitionDuration={300} placement='center' sx={{ display: 'flex' }} control={<ActionIcon sx={{ alignSelf: 'center', justifySelf: 'center' }}>
             <UserCircle size={60}></UserCircle>
         </ActionIcon>}>
             <Menu.Label>Profile</Menu.Label>
